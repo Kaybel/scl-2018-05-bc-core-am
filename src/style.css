@@ -8,18 +8,27 @@
 
 .btn{
 	text-align: center;
-	background-color: black;
-	color: AntiqueWhite;
+	background-color: darkred;
+	color: white;
 	border-radius: 20px;
 	position: relative;
 	bottom: 100px;
-		/*Si se achica la pagina el boton se pierde, acomodar eso*/
+	/* se coloca bottom porque va alineado a los cuadros de texto*/ 
+}
+
+#subtittle1{
+	position: left;
+}
+
+#subtittle2{
+	position: right;
 }
 
 h1{
 	text-align: center;
 	color: black;
 	font-size: 50px;
+	font-style: italic;
 }
 
 body{
@@ -27,12 +36,17 @@ body{
 }
 
 .cuadroTexto{
-	width: 498px;
+	width: 500px;
 	height: 200px;
 	resize: none;
-	background-color: inherit;
-	border-style: 
-
+	background-color: AntiqueWhite;
+	border-style: dashed solid;
+	border-color: darkred;
+	border-radius: 20px;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
 /*	max-height: 199px; 
 	min-height: 190px;
 	max-width: 499px; 
