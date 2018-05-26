@@ -6,6 +6,12 @@
 	background-color: AntiqueWhite;
 }
 
+.number{
+	display: block;
+	background-color: White;
+}
+
+
 .btn{
 	text-align: center;
 	background-color: darkred;
@@ -16,12 +22,28 @@
 	/* se coloca bottom porque va alineado a los cuadros de texto*/ 
 }
 
+.number{
+	display: inline;
+}
+
 #subtittle1{
 	position: left;
 }
 
 #subtittle2{
 	position: right;
+}
+
+h4{
+	display: inline;
+	background-color: AntiqueWhite;
+	size: 40px;
+
+}
+
+.separacion{
+	margin-bottom: 30px;
+	margin-left: 10px;
 }
 
 h1{
