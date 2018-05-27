@@ -57,7 +57,24 @@ body{
 	background-image: url(image/fondo1.jpg);
 }
 
-.cuadroTexto{
+#cuadroTextoCifrado{
+	width: 500px;
+	height: 200px;
+	resize: none;
+	background-color: AntiqueWhite;
+	border-style: dashed solid;
+	border-color: darkred;
+	border-radius: 20px;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+/*	max-height: 199px; 
+	min-height: 190px;
+	max-width: 499px; 
+	min-width: 490px;*/
+}
+#cuadroTextoDescifrado{
 	width: 500px;
 	height: 200px;
 	resize: none;
