@@ -25,17 +25,25 @@ let cifrado = cifrar();
 let descifrado = descifrar();
 let numSpace =space();
 */
-    function cifrar() {
-         document.getElementById("cuadroTextoCifrado").value = document.getElementById("cuadroTextoDescifrado").value;
+function space(){
+    let inputNumber = parseInt(document.getElementById("numInput").value , 10);
+    return inputNumber;
+    }
+
+function cifrar() {
+    // hago una variable para que la info de la funcion se guarde y luego deberia llamar en una let FUERA de la funcion a la funcion como tal para sustraer su informacion que DEBERIA estar almacenada en la let
+    let textoACifrar = (document.getElementById("cuadroTextoCifrado").value = document.getElementById("cuadroTextoDescifrado").value);
            // window.cipher.encode puedo llamar a la funcion en cipher.js
-    let textoDescifrado = window.cipher.encode();
-     }
-    function descifrar() {
-         document.getElementById("cuadroTextoDescifrado").value = document.getElementById("cuadroTextoCifrado").value;
-           // window.cipher.encode puedo llamar a la funcion en cipher.js
-    let textoDescifrado = window.cipher.decode();
+    // let textoDescifrado = window.cipher.encode();
+    return textoACifrar;
+    }
+function descifrar() {
+    let textoADescifrar = (document.getElementById("cuadroTextoDescifrado").value = document.getElementById("cuadroTextoCifrado").value);
+           // window.cipher.decode puedo llamar a la funcion en cipher.js
+    // let textoDescifrado = window.cipher.decode();
+    return textoADescifrar;
     } 
-    
 
     let cifrado = cifrar();
     let descifrado = descifrar();
+    let numSpace = space();

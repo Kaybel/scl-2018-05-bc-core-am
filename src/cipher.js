@@ -1,9 +1,11 @@
-window.cipher = {
+/*window.cipher = {
   encode: () => {
     /* Acá va tu código */
-    // es un obj
+    // es un obj 
+    /*
   },
   decode: () => {
-    /* Acá va tu código */
+    /* Acá va tu código */  /*
   }
 }
+*/
