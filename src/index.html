@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-  <title>Cifrado César</title>
   </head>
 <body>
 	<header>
@@ -13,11 +12,12 @@
 
 	<section class="separacion">
   <h4> Selecciona cuántos espacios se moverá tu mensaje cifrado</h4>
-  <input class ="number" type="number" min="1" max="27">
+  <input class ="number" type="number" min="1" max="20">
   </section>
   <section>
  	<textarea id="cuadroTextoCifrado" placeholder="Mensaje cifrado acá"></textarea>
- 	<button onclick="myFunction()" class="btn" id="btnId">TRADUCTOR</button>
+   <button onclick="cifrar()" class="btn" id="btnId1">Cifrar</button>
+   <button onclick="descifrar()" class="btn" id="btnId2">Descifrar</button>
 	<textarea id="cuadroTextoDescifrado" placeholder="Mensaje descifrado acá"></textarea>
 	</section>
 
