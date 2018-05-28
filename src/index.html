@@ -9,18 +9,24 @@
 	<header>
 	<h1 class="fondoTitulo" id= "tittleSize"> Cifrado y Descifrado de Mensaje</h1>
 	</header>
+  <section>
+
+  </section>
 
 	<section class="separacion">
   <h4> Selecciona cuántos espacios se moverá tu mensaje cifrado</h4>
-  <input class ="number" type="number" min="1" max="20">
+  <input class ="number" id = "numInput" type="number" min="1" max="20">
   </section>
+
   <section>
  	<textarea id="cuadroTextoCifrado" placeholder="Mensaje cifrado acá"></textarea>
-   <button onclick="cifrar()" class="btn" id="btnId1">Cifrar</button>
+   <!-- se colocan los botones en medio de ambos cuadros de texto para que esten juntos y no al lado de cada cuadro de texto-->
+   <button onclick="cifrar()" class="btn" id="btnId1"> Cifrar </button>
    <button onclick="descifrar()" class="btn" id="btnId2">Descifrar</button>
 	<textarea id="cuadroTextoDescifrado" placeholder="Mensaje descifrado acá"></textarea>
-	</section>
-
+  </section>
+  
+<!-- linkear en body ayuda para que sea más rápido-->
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
