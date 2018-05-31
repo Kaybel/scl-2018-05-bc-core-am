@@ -68,10 +68,6 @@ body{
 	border-bottom-width: 5px;
 	border-left-width: 5px;
 	border-right-width: 5px;
-/*	max-height: 199px; 
-	min-height: 190px;
-	max-width: 499px; 
-	min-width: 490px;*/
 }
 #cuadroTextoDescifrado{
 	width: 500px;
@@ -85,8 +81,4 @@ body{
 	border-bottom-width: 5px;
 	border-left-width: 5px;
 	border-right-width: 5px;
-/*	max-height: 199px; 
-	min-height: 190px;
-	max-width: 499px; 
-	min-width: 490px;*/
 }
