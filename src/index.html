@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -10,7 +11,8 @@
 	    <h1 class="fondoTitulo" id= "tittleSize"> Cifrado y Descifrado de Mensaje</h1>
 	  </header>
 
-	  <section class="separacion">
+      <p id="explicacion"> Ésta página posee la opción de cifrar o descifrar mensajes para así hablar en "clave", es sencilla de usar, escribe tu mensaje en el Cuadro de Texto "Descifrado" luego presiona el botón "cifrar" y  listo, tu mensaje estará cifrado, luego, puedes descifrar tu mensaje siguiendo los pasos anteriores;<br>Intentalo!</p>
+    <section class="separacion"></section>
       <h4> Selecciona cuántos espacios se moverá tu mensaje cifrado</h4>
       <input class ="number" id = "numInput" type="number" min= 1 max= 20>
     </section>
@@ -18,8 +20,8 @@
     <section>
      	<textarea id="cuadroTextoCifrado" placeholder="Mensaje cifrado acá"></textarea>
       <!-- se colocan los botones en medio de ambos cuadros de texto para que esten juntos y no al lado de cada cuadro de texto-->
-        <button onclick="textoCifrado" class="btn" id="btnId1"> Cifrar </button>
-        <button onclick="textoDescifrado" class="btn" id="btnId2">Descifrar</button>
+        <button HTMLButtonElement.onclick="textoCifrado" class="btn" id="btnId1"> Cifrar </button>
+        <button HTMLButtonElement.onclick="textoDescifrado" class="btn" id="btnId2">Descifrar</button>
 	    <textarea id="cuadroTextoDescifrado" placeholder="Mensaje descifrado acá"></textarea>
     </section>
   

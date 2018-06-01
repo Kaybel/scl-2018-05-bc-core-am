@@ -9,6 +9,9 @@
 .number{
 	display: block;
 	background-color: White;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	display: inline-block;
 }
 
 
@@ -23,6 +26,11 @@
 }
 .number{
 	display: inline;
+}
+
+h4{
+	margin-top: 30px;
+	margin-left: 10px;
 }
 
 #subtittle1{
@@ -49,7 +57,8 @@ h1{
 	text-align: center;
 	color: black;
 	font-size: 50px;
-	font-style: italic;
+	font-family: 'Indie Flower', cursive;
+
 }
 
 body{
@@ -68,6 +77,7 @@ body{
 	border-bottom-width: 5px;
 	border-left-width: 5px;
 	border-right-width: 5px;
+	font-family: 'Indie Flower', cursive;
 }
 #cuadroTextoDescifrado{
 	width: 500px;
@@ -81,4 +91,26 @@ body{
 	border-bottom-width: 5px;
 	border-left-width: 5px;
 	border-right-width: 5px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#explicacion{
+	left: 300px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+	background-color: antiquewhite;
+	text-align: justify;
+	display: block;
+	resize: none;
+	width: 600px;
+	height: 150px;
+	border-style: dashed solid;
+	border-color: darkred;
+	border-radius: 20px;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	margin-bottom: 30px;
+	margin-left: 350px;
 }
