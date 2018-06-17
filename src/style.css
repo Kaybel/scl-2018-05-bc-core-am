@@ -3,12 +3,14 @@
 }
 
 .fondoTitulo{
-	background-color: antiquewhite;
+	background-color: inherit;
 }
+
 
 .number{
 	display: block;
-	background-color: White;
+	background-color: rgb(70, 95, 30);
+	color: white;
 	margin-bottom: 30px;
 	margin-left: 10px;
 	display: inline-block;
@@ -17,7 +19,7 @@
 
 .btn{
 	text-align: center;
-	background-color: darkred;
+	background-color: rgb(70, 95, 30) ;
 	color: white;
 	border-radius: 20px;
 	position: relative;
@@ -43,9 +45,9 @@ h4{
 
 h4{
 	display: inline;
-	background-color: AntiqueWhite;
+	background-color: rgb(70, 95, 30);
 	size: 40px;
-
+	color: white;
 }
 
 .separacion{
@@ -55,24 +57,28 @@ h4{
 
 h1{
 	text-align: center;
-	color: black;
+	color:white;
 	font-size: 50px;
 	font-family: 'Indie Flower', cursive;
 
 }
 
 body{
-	background-image: url(image/fondo1.jpg);
+	background-image: url(image/fondo.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	size: 100%;
 }
 
 #cuadroTextoCifrado{
 	width: 500px;
 	height: 200px;
 	resize: none;
-	background-color: AntiqueWhite;
+	background-color: rgb(70, 95, 30);
 	border-style: dashed solid;
-	border-color: darkred;
+	border-color: white;
 	border-radius: 20px;
+	color: white;
 	border-top-width: 5px;
 	border-bottom-width: 5px;
 	border-left-width: 5px;
@@ -83,9 +89,10 @@ body{
 	width: 500px;
 	height: 200px;
 	resize: none;
-	background-color: AntiqueWhite;
+	background-color: rgb(70, 95, 30);
 	border-style: dashed solid;
-	border-color: darkred;
+	border-color: white;
+	color: white;
 	border-radius: 20px;
 	border-top-width: 5px;
 	border-bottom-width: 5px;
@@ -96,16 +103,17 @@ body{
 
 #explicacion{
 	left: 300px;
+	color: white;
 	font-family: 'Indie Flower', cursive;
 	font-size: 15px;
-	background-color: antiquewhite;
+	background-color: rgb(70, 95, 30);
 	text-align: justify;
 	display: block;
 	resize: none;
 	width: 600px;
 	height: 150px;
 	border-style: dashed solid;
-	border-color: darkred;
+	border-color: white;
 	border-radius: 20px;
 	border-top-width: 5px;
 	border-bottom-width: 5px;

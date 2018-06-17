@@ -17,4 +17,5 @@ window.cipher = {
   }
 }
 
+
 // squad indica que ciclo for es mas facil de usar, explican modo de uso por lo que se reemplaza y se sustituyen valores, intentando mejorar codigo.
