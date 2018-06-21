@@ -6,6 +6,17 @@ let mensajeCip = document.getElementById("cuadroTextoCifrado").value;
 let mensajeDescip = document.getElementById("cuadroTextoDescifrado").value;
 
 // evento DOM 
-// llamar funciones encode y decode 
+
+// llamar funciones encode y decode
+
+btnUno.addEventListener("click", () => {
+console.log('este boton cifra');
+mensajeDescip.value = mensajeCip.value.innerText;
+});
+
+btnDos.addEventListener("click", () => {
+console.log('este descifra');
+mensajeCip.value = mensajeDescip.value.innerText;
+});
 
 }

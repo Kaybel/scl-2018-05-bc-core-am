@@ -1,21 +1,23 @@
 let espacioAMover = document.getElementById("numInput").value;
+let mensajeCip = document.getElementById("cuadroTextoCifrado").value;
+let mensajeDescip = document.getElementById("cuadroTextoDescifrado").value;
 
 window.cipher = {
-  // se aplica arrow function 
-  encode : (cifradociph, espacioAMoverciph) => {
-    // variable vacia para que concatene las letras y cree los parrafos luego
+  encode : (cifradociph, espacioAMover) => {
+    let cifrado = mensajeDescip;
     let result = "";
-    // se aplica for para que recorra todo el largo de lo que se ingrese en el cuadro de text
     for(let i = 0; i < cifrado.length; i++){
-      // se aplica formula de michell
-      let infoCip = ((cifrado.charCodeAt(i) - 65 + (espacioAMover)) % 26 + 65);
-      // aqui se une todo el result en la let
-   result += string.charCodeAt(infoCip);
-    }
-    // se imprime el result
-   return result;   
-  },
-  decode : (descifradociph, espacioAMover2ciph) => {
+      // se aplica from char code para que retorno los espacios del char code at
+   let infoCip = ((descifrado.charCodeAt(i) + 65 - (espacioAMover)) % 26 + 65);
+  result += string.charCodeAt(infoCip);
+  }
+  return result;  
+  }
+};
+// se coloca otra window.cipher porque arriba toma como error el decode.
+window.cipher = {
+  decode : (descifradociph, espacioAMover) => {
+    let descifrado = mensajeCip;
     let result2 = "";
     for(let i = 0; i < descifrado.length; i++){
       // se aplica from char code para que retorno los espacios del char code at
