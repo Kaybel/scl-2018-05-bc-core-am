@@ -1,23 +1,11 @@
-window.onload = function(){ 
+window.onload = function() { 
+  // variables de botones y cuadros de texto
 const btnUno = document.getElementById("btnId1");
 const btnDos = document.getElementById("btnId2"); 
-let mensajeCip = document.getElementById("cuadroTextoCifrado");
-let mensajeDescip = document.getElementById("cuadroTextoDescifrado");
+let mensajeCip = document.getElementById("cuadroTextoCifrado").value;
+let mensajeDescip = document.getElementById("cuadroTextoDescifrado").value;
 
-btnUno.addEventListener("click", () =>{
-  let cifrado = (document.getElementById("cuadroTextoCifrado")).value.toUpperCase;
-  let espacioAMover = document.getElementById("numInput").value;
-  let cuadCiph = window.cipher.encode(espacioAMover, cifrado);
-  //donde se imprime y donde escribe
-    mensajeDescip.innerHTML = cuadCiph;
+// evento DOM 
+// llamar funciones encode y decode 
 
-});
-btnDos.addEventListener("click", () => {
-  let descifrado = (document.getElementById("cuadroTextoDescifrado")).value.toUpperCase;
-  let espacioAMover2 = document.getElementById("numInput").value;
-  let cuadDciph = window.cipher.decode(espacioAMover2, descifrado);
-  mensajeCip.innerHTML = cuadDciph;
-});
 }
-
-// se intenta aplicar peerfeedback ingresando info dentro del botones.

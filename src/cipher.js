@@ -1,21 +1,27 @@
+let espacioAMover = document.getElementById("numInput").value;
+
 window.cipher = {
+  // se aplica arrow function 
   encode : (cifradociph, espacioAMoverciph) => {
+    // variable vacia para que concatene las letras y cree los parrafos luego
     let result = "";
-    for(i = 0; i < cifrado.length; i++){
-   let infoCip = ((cifrado.charCodeAt - 65 + (espacioAMover)) % 26 + 65);
-   result += infoCip.fromCharCode();
+    // se aplica for para que recorra todo el largo de lo que se ingrese en el cuadro de text
+    for(let i = 0; i < cifrado.length; i++){
+      // se aplica formula de michell
+      let infoCip = ((cifrado.charCodeAt(i) - 65 + (espacioAMover)) % 26 + 65);
+      // aqui se une todo el result en la let
+   result += string.charCodeAt(infoCip);
     }
+    // se imprime el result
    return result;   
   },
   decode : (descifradociph, espacioAMover2ciph) => {
     let result2 = "";
-    for(i = 0; i < descifrado.length; i++){
-   let infoDec = ((descifrado.charCodeAt + 65 - (espacioAMover2)) % 26 + 65);  
-   result2 += infoDec.fromCharCode();
-    }
-   return result2;
+    for(let i = 0; i < descifrado.length; i++){
+      // se aplica from char code para que retorno los espacios del char code at
+   let infoDec = ((descifrado.fromCharCode(i) + 65 - (espacioAMover)) % 26 + 65);
+  result2 += string.fromCharCode(infoDec);
   }
-}
-
-
-// squad indica que ciclo for es mas facil de usar, explican modo de uso por lo que se reemplaza y se sustituyen valores, intentando mejorar codigo.
+  return result2;  
+  }
+};
